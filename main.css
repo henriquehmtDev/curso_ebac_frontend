@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: rgba(62, 210, 212, 0.708)
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: rgb(170, 185, 199);
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header li a{
+    color: rgb(170, 185, 199);
+    align-items: center;
+    text-decoration: none;
+    margin: 4px; 
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}  
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    width: 100%;
+    border: solid, 1px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: rgba(144, 108, 58, 0.726);
+    padding: 4px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 8px;
+    border: solid, 1px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+#sports .articles article a{
+    background-color: rgba(21, 128, 0, 0.626);
+}
+
+#economy{
+    background-color: rgba(255, 255, 0, 0.3)
+}
+
+#economy .articles article a{
+    background-color: rgba(255, 217, 0, 0.563);
+}
+
+#entertainment{
+    background-color: rgba(0, 0, 000, 0.8);
+    color: white
+}
+
+#enterteinment .articles article a{
+    background-color: rgba(255, 217, 0, 0.563);
+}
